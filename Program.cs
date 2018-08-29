@@ -33,6 +33,7 @@ namespace YunxiBaby {
                     options.Listen (IPAddress.Loopback, 5001, listenOptions => {
                         listenOptions.UseHttps (certificate);
                     });
+                    options.Listen (IPAddress.Loopback, 5000);
                 })
                 .UseConfiguration (config)
                 .Build()
