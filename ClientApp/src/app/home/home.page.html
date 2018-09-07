@@ -4,7 +4,30 @@
             <ion-menu-button></ion-menu-button>
         </ion-buttons>
         <ion-title>云溪宝贝</ion-title>
+        <ion-buttons slot="end">
+            <ion-button>
+                <ion-icon slot="icon-only" name="refresh"></ion-icon>
+            </ion-button>
+        </ion-buttons>
     </ion-toolbar>
 </ion-header>
 <ion-content>
+    <ion-slides pager="true">
+        <ion-slide>
+            <ion-img [src]="/assets/1.JPG"></ion-img>
+        </ion-slide>
+
+        <ion-slide>
+            <ion-img [src]="/assets/2.JPG"></ion-img>
+        </ion-slide>
+    </ion-slides>
+    <ion-card>
+        <ion-img [src]="/assets/5.JPG"></ion-img>
+
+        <ion-card-content>
+            <ion-card-title>Hello World</ion-card-title>
+
+            <p>The content for this card</p>
+        </ion-card-content>
+    </ion-card>
 </ion-content>
