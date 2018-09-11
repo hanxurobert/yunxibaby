@@ -1,7 +1,7 @@
 <ion-header>
     <ion-toolbar color="primary">
         <ion-buttons slot="start">
-            <ion-menu-button></ion-menu-button>
+            <ion-menu-button menuId="mainMenu" color="danger"></ion-menu-button>
         </ion-buttons>
         <ion-title>云溪宝贝</ion-title>
         <ion-buttons slot="end">
@@ -12,17 +12,17 @@
     </ion-toolbar>
 </ion-header>
 <ion-content>
-    <ion-slides pager="true">
+    <ion-slides pager="true" width="800" height="600">
         <ion-slide>
-            <ion-img [src]="/assets/1.JPG"></ion-img>
+            <ion-img src="/assets/1.JPG">Hello World</ion-img>
         </ion-slide>
 
         <ion-slide>
-            <ion-img [src]="/assets/2.JPG"></ion-img>
+            <ion-img src="/assets/2.JPG"></ion-img>
         </ion-slide>
     </ion-slides>
     <ion-card>
-        <ion-img [src]="/assets/5.JPG"></ion-img>
+        <ion-img src="/assets/5.JPG"></ion-img>
 
         <ion-card-content>
             <ion-card-title>Hello World</ion-card-title>
